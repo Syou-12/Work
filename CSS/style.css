@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* タブ */
 .tab-1 {
     display: flex;
@@ -171,4 +173,12 @@ main {
 .accordion-008[open] p {
     transform: none;
     opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0 auto;
+        overflow-x: hidden;
+
+    }
 }
